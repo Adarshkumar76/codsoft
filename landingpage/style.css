@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+  background: linear-gradient(to right, rgb(253, 178, 95), rgb(229, 74, 191));
+}
+.links .left {
+  margin: 0 30px;
+}
+
+.links .left > img {
+  width: 40px;
+  border-right: 1px solid white;
+  padding: 0 10px;
+  margin: 0;
+}
+.links .mid {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #fff;
+  font-weight: 900;
+}
+.links .mid .phone,
+.email {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.links .mid .phone > img,
+.email > img {
+  width: 20px;
+}
+.links .right > button {
+  background: transparent;
+  padding: 10px 40px;
+  border: 2px solid white;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0 30px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 60px;
+  background: rgb(255, 255, 255);
+}
+.nav .logo > img {
+  width: 50px;
+}
+.nav .list {
+  display: flex;
+  align-items: center;
+}
+.nav .list ul {
+  list-style: none;
+}
+.nav .list ul li a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: #000;
+  font-weight: 600;
+}
+.nav .list button {
+  background: rgb(253, 178, 95);
+  height: 100%;
+  color: black;
+  border: none;
+  padding: 22px 10px;
+  font-weight: 600;
+}
+.nav .right img {
+  width: 50px;
+  background: #000;
+  padding: 14px 10px;
+}
+.home {
+  background: url(https://thumbs.dreamstime.com/z/background-image-teams-young-people-sitting-circle-background-image-teams-young-people-sitting-circle-photo-255715339.jpg);
+  height: 70vh;
+  color: white;
+}
+.black {
+  background: #0000006b !important;
+  height: 100%;
+  padding: 150px;
+  display: flex;
+  flex-direction: row;
+}
+.black .line {
+  width: 7px;
+  background: linear-gradient(to bottom, rgb(253, 178, 95), rgb(229, 74, 191));
+  margin: 0 20px;
+  border-radius: 5px;
+}
+.black .right h5 {
+  font-size: 20px;
+  margin-bottom: 7px;
+}
+.black .right h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.black .right p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.black .right .btns button {
+  background: transparent;
+  padding: 10px 30px;
+  border: 2px solid white;
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+.black .right .btns .learn {
+  background: linear-gradient(to right, rgb(253, 178, 95), rgb(229, 74, 191));
+  border: none !important;
+}
+.infobar {
+  background: linear-gradient(to right, rgb(253, 178, 95), rgb(229, 74, 191));
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+.infobar .info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.info .card {
+  width: 28%;
+  margin: 10px;
+}
+.info .card .top {
+  display: flex;
+  align-items: center;
+}
+.round {
+  border: 3px solid #fff;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  padding: 10px;
+}
+.info .card .top img {
+  width: 40px;
+}
+.info .card .top h3 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0 20px;
+}
+.info .card .bottom p {
+  text-align: left;
+}
+.about {
+  display: flex;
+  padding: 70px;
+  background: url(https://www.pixelstalk.net/wp-content/uploads/images1/Free-download-World-Map-HD-Wallpaper-1.jpg);
+  gap: 30px;
+}
+.about .left h2 {
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.about .left span {
+  display: block;
+  height: 5px;
+  width: 100px;
+  background: linear-gradient(to right, rgb(253, 178, 95), rgb(229, 74, 191));
+  margin-bottom: 30px;
+}
+.about .left h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.about .left p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.about .left button {
+  background: linear-gradient(to right, rgb(253, 178, 95), rgb(229, 74, 191));
+  padding: 10px 30px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+.about .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.about .right .box {
+  position: absolute;
+  bottom: 0;
+  width: 300px;
+  height: 100px;
+  border-style: solid;
+  border-width: 5px;
+  border-image: linear-gradient(to right, rgb(253, 178, 95), rgb(229, 74, 191));
+}
+.service {
+  display: flex;
+  padding: 70px;
+  background: url(https://www.pixelstalk.net/wp-content/uploads/images1/Free-download-World-Map-HD-Wallpaper-1.jpg);
+  gap: 30px;
+  justify-content: center;
+  flex-direction: column;
+}
+.service h2 {
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.service span {
+  display: block;
+  height: 5px;
+  width: 100px;
+  background: linear-gradient(to right, rgb(253, 178, 95), rgb(229, 74, 191));
+  margin-bottom: 30px;
+}
+.service .cards {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-around;
+}
+.service .cards .card {
+  display: flex;
+  border-radius: 10px;
+  position: relative;
+}
+.service .cards .card > img {
+  height: 200px;
+  width: 350px;
+  object-fit: cover;
+}
+.service .cards .card .title {
+  background: white;
+  height: 50px;
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+}
+.service .cards .card .title .png {
+  background: linear-gradient(to right, rgb(253, 178, 95), rgb(229, 74, 191));
+  position: absolute;
+  left: 0px;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.service .cards .card .title .png img {
+  width: 25px;
+}
